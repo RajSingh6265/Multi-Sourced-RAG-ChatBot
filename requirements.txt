@@ -1,0 +1,9 @@
+groq
+streamlit
+beautifulsoup4
+langchain-groq
+python-dotenv
+faiss-cpu
+langchain-community
+sentence-transformers
+pypdf
