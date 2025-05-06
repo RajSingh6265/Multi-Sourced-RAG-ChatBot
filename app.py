@@ -136,7 +136,7 @@ if pdf_file is not None:
         st.error(f"Error loading PDF: {e}")
 st.title("Chat Groq")
 llm=ChatGroq(groq_api_key=groq_api_key,
-             model_name="mixtral-8x7b-32768")
+             model_name="gemma2-9b-it")
 
 prompt=ChatPromptTemplate.from_template(
 """
