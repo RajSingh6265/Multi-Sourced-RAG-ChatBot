@@ -189,3 +189,4 @@ if prompt and submit_button:
             for i, docs in enumerate(response["context"]):
                 st.write(docs.page_content)
                 st.write("------------------------------------")
+
